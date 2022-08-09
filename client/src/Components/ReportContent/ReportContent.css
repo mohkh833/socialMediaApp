@@ -1,0 +1,11 @@
+.ReportContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.ReportList :hover{
+    background-color: rgb(241, 241, 241);
+    transition: 0.3s;
+}

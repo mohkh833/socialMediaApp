@@ -1,0 +1,17 @@
+.ReportBox{
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+    margin: 40px;
+    border-radius: 20px;
+    
+    text-align: center;
+}
+
+.ReportBox h2{
+    font-weight: bold;
+}
+
+.ReportBox h5{
+    font-weight: bold;
+    font-size: 30px;
+}

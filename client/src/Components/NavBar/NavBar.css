@@ -1,0 +1,45 @@
+nav{
+    padding: 30px;
+    background-color: rgb(243, 243, 243);
+}
+
+.Right{
+    padding-left: 20px;
+}
+.Right .login{
+    margin-right: 10px;
+}
+.Right span{  
+    margin-right: 10px;
+    color: #4d4c4c;
+    font-size: 18px;
+}
+
+.Right button {
+    margin-bottom: 5px;
+}
+
+.SearchBar{
+    margin: auto;
+    width: 500px;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    outline: none;
+}
+.SearchButton{
+    margin-left: 20px;
+    height: 40px;
+    padding: 10px;
+}
+.Center{
+    margin: auto;
+    
+}
+
+.Center button {
+    margin-bottom: 5px;
+}
+
+#navbarNavAltMarkup{
+    margin-top: 5px;
+}

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    border: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > *{
+    flex: 0 0 50%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: none !important;
+    
+}
+
+.PostTitle{
+    display: flex;
+}
+
+.PostTitle span {
+    margin-left: 20px;
+}
+
+.PostImage{
+    position: relative;
+}
+
+.PostUserName{
+    position: absolute;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.deleteButton{
+    background:none;
+}
+
+.noPosts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noPosts img{
+    height: 1000px;
+}

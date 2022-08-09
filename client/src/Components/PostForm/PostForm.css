@@ -1,0 +1,19 @@
+.postContent{
+    height: 150px;
+}
+
+.PostContainer{
+    width: 800px;
+    max-height: 120vh;
+    padding: 40px;
+    margin-top: 150px;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px ;
+}
+
+.loadingBar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}

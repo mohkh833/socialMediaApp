@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+ .LoginPage span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.LoginPage{
+    margin-top: 200px;
+}
+.LoginContainer{
+    width: 800px;
+    min-height: 400px;
+    max-height: 900px;
+    padding: 40px;
+    margin-top: 150px;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px ;
+}
+
+.LoginWrapper { 
+    width: 100%;
+}
+
+.LoginWrapper label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.createAcoount {
+    text-decoration: none;
+}
+
+.createAcoount span{
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgb(211, 211, 211);
+    font-style: normal;
+}
+
+.createAcoount span:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+
+.LoginWrapper button{
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+

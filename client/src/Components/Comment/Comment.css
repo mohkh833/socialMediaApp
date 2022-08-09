@@ -1,0 +1,20 @@
+.CommentBox{
+    margin: auto;
+    
+    padding: 50px;
+}
+.commentName{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.ListButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.ListButtons button {
+    margin: 5px;
+}
